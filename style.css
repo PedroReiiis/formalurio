@@ -30,7 +30,9 @@ body{
     font-size: 20px;
     margin-bottom: 20px;
     /*border: 1px solid blue;*/
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none!important;
+    outline-style: none;
 }
 
 
@@ -40,6 +42,8 @@ h1{
     border-top: 2px solid black;
 }
 
+
+
 .enviar{
     border:1px solid black;
     padding: 3px;
@@ -48,6 +52,8 @@ h1{
     margin-top: 5%;
     font-size: 14px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+    
 }
 
 form{
