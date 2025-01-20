@@ -6,20 +6,23 @@
 }
 
 body{
-    width: 100%;
     display: flex;
     justify-content: center;
     margin-top: 18%;
     background-color: rgb(205, 206, 219);
+    background-image: url(img/TOUR.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .container{
     display:flex;
     flex-direction: column;
     /*border: 1px solid black;*/
-    width: 17rem;
-    height: 18rem;
-    text-align: center;
-    border-radius: 5px;
+    width: 18rem;
+    height: 19rem;
+    border-radius: 10px;
     align-items: center;
     background-color: white;  
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.25);
@@ -27,12 +30,10 @@ body{
 }
 
 .namee ,.emaill ,.cpff ,.tel {
-    font-size: 20px;
+    font-size: 22px;
     margin-bottom: 20px;
     /*border: 1px solid blue;*/
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    border: none!important;
-    outline-style: none;
 }
 
 
@@ -56,10 +57,10 @@ h1{
     
 }
 
-form{
+#tel, #cpf, #email, #nome{
+    width: 150px;
+    height: 20px;
+    text-align:center;
+    border: none;
     
-    /*border: 1px solid black;*/
-    text-align: start;   
 }
-
-
